@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    background-image: url('nics and me.jpg'); /* Use forward slashes and avoid escaping spaces */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  
+  
+  
+  
+  .container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  svg#flower-frame {
+    height: 90vh;
+    width: 100%;
+  }
+  
+  
+  
+  #Footer_group_1_,
+  [id^=PinkFlowerGroup],
+  [id^=BaseGroup] path,
+  [id^=LeafGroup] path,
+  path[id^=Stroke],
+  g[id^=BudGroup] g[id^=BudGroup] g[id^=Bud],
+  #Bud8_1_,
+  #Bud10_1_,
+  #Bud23_1_,
+  #Bud26_1_,
+  [id^=Dots],
+  [id^=Flourish] {
+    visibility: hidden;
+  }
